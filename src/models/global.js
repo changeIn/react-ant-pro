@@ -1,9 +1,9 @@
 import { queryNotices } from '../services/api';
 
 export default {
-  namespace: 'global',
+  namespace: 'global',  //命名空间名字，必填
 
-  state: {
+  state: {              //state 用来放初始值
     collapsed: false,
     notices: [],
   },

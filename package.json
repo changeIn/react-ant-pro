@@ -54,7 +54,8 @@
     "react-sortable-hoc": "^1.8.3",
     "roadhog": "^2.5.0-beta.4",
     "rollbar": "^2.3.4",
-    "url-polyfill": "^1.0.10"
+    "url-polyfill": "^1.0.10",
+    "puppeteer": "^1.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.1.2",
@@ -105,5 +106,18 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 10"
-  ]
+  ],
+  "main": ".babelrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changeIn/react-ant-pro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changeIn/react-ant-pro/issues"
+  }
 }
